@@ -36,11 +36,14 @@ I conducted a comparative analysis of three distinct algorithms to find the opti
 ### 3. Hyperparameter Tuning
 The final XGBoost model was optimized using `GridSearchCV` with the following configuration:
 - `learning_rate`: 0.07
-- `max_depth`: 10
-- `n_estimators`: 300
+- `max_depth`: 9
+- `calsample_bytree`: 1
 - `subsample`: 0.9
-- `min_child_weight`: 3
+- `min_child_weight`: 10
 
+---
+### 4. Model Deployment
+After training the model, deployment was to a local API where the Json file with sample data was imported and executed to get the predict probability of flooding.
 ---
 
 ## 🚀 Usage Instructions
