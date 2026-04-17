@@ -43,7 +43,7 @@ The final XGBoost model was optimized using `GridSearchCV` with the following co
 
 ---
 ### 4. Model Deployment
-After training the model, deployment was to a local API where the Json file with sample data was imported and executed to get the predict probability of flooding.
+**After training the model, deployment was to a local API where the Json file with sample data was imported and executed to get the predict probability of flooding.
 ---
 
 ## 🚀 Usage Instructions
