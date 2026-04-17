@@ -47,7 +47,7 @@ After training the model, deployment was to a local API where the Json file with
 
 ---
 
-## 🚀 Usage Instructions
+##  Usage Instructions
 
 ### **1. Prerequisites**
 Install the necessary data science stack:
